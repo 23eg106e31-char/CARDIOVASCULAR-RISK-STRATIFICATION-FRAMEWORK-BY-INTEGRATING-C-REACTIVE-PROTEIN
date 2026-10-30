@@ -1,0 +1,8 @@
+{
+  "model_architecture": "TabPFN (Tabular Prior-Data Fitted Network)",
+  "trained_on": "nhanes_cvd_crp_combined_harmonized.csv",
+  "rows_used": 16964,
+  "features": 14,
+  "fallback_model": "LogisticRegression",
+  "objective": "Risk Stratification Framework Development into Low, Moderate, High risk tiers"
+}

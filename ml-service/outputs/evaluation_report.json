@@ -1,0 +1,47 @@
+{
+  "model_type": "TabPFNClassifier",
+  "dataset": "nhanes_cvd_crp_combined_harmonized.csv",
+  "target": "major_cvd_target",
+  "rows_used": 16964,
+  "features": [
+    "age",
+    "bmi",
+    "systolic_bp",
+    "diastolic_bp",
+    "total_cholesterol",
+    "hdl",
+    "ldl",
+    "triglycerides",
+    "glucose",
+    "hba1c",
+    "hs_crp",
+    "sex",
+    "smoker",
+    "diabetes"
+  ],
+  "metrics": {
+    "auroc": 0.5,
+    "auprc": 0.10569744597249509,
+    "brier_score": 0.09455795677799607,
+    "accuracy": 0.8943025540275049,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "confusion_matrix": [
+      [
+        2276,
+        0
+      ],
+      [
+        269,
+        0
+      ]
+    ],
+    "operating_threshold": 0.5
+  },
+  "risk_tier_distribution": {
+    "Moderate": 1380,
+    "High": 828,
+    "Low": 337
+  }
+}
