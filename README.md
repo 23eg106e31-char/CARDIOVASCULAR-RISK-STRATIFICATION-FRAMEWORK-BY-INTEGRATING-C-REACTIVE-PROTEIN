@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# CARDIOVASCULAR-RISK-STRATIFICATION-FRAMEWORK-BY-INTEGRATING-C-REACTIVE-PROTEIN
+>>>>>>> 0c2399fd834c6f7849bdb5157d7848408452662f
 # Cardiovascular Risk Stratification Framework — NHANES + TabPFN
 
 A full-stack research/educational application for cardiovascular risk stratification using **NHANES data**, a **TabPFN** tabular model, a FastAPI ML service, a Spring Boot API, and a React + Vite interface.
